@@ -1,0 +1,56 @@
+:root {
+    --primary-color: #032B44;
+    --secondary-color: #34C759;
+    --accent1-color: #FFC107;
+    --accent2-color: #964B00;
+}
+
+h1,h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+p{
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.social-media-links a {
+    text-decoration: none;
+}
+
+.social-media-links a img {
+    width: 40px;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    color: navy;
+}
+
+.hero article {
+    background-color: rgba(0 0 0 / 0.4);
+    position: absolute;
+    top: 150px;
+}
+
+.hero article img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+.hero p {
+    color: papayawhip;
+}
