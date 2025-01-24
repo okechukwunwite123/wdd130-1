@@ -12,17 +12,24 @@ nav {
     background-color: darkblue;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+
 }
 
 h1 {
     color: var(--heading-text-color);
+    border-bottom: 1px solid rgba(49, 106, 152, 0.774);
+    margin-bottom: 10px;
+    padding-bottom: 5px;
 }
 
 main img {
@@ -69,6 +76,11 @@ footer {
     text-align: center;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
 /* Class Selectors */
 
 .box {
@@ -77,4 +89,13 @@ footer {
     border: 1px solid rgb(0 0 0 / 0.4);
     background-color: rgb(202, 198, 191);;
     color: #333;;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 420px);
+}
+
+.grid aside {
+    order: -1;
 }
