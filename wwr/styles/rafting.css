@@ -112,11 +112,14 @@ header nav a:hover {
 }
 
 
+.history-section p {
+    margin: 0;
+}
+
 .history-section img {
     width: 150px;
     height: auto;
     box-shadow: 0 0 30px gray;
-    display: block;
     margin: 0 10px;
 }
 
