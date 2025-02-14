@@ -268,3 +268,144 @@ iframe {
     align-self: center;
     display: block;
 }
+
+.trip-info-container {
+    max-width: 210px;
+    background-color: #9391799c;
+}
+
+.trips-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0.75rem;
+}
+
+.table-section {
+    display: grid;
+    grid-template-columns: 1fr 170px;
+    background-color: antiquewhite;
+    margin-top: .25rem;
+}
+
+.table-section aside {
+    border: 1px solid #000;
+    background-color: #9391799c;
+    /* margin: 15px 0; */
+    border-radius: 5px;
+}
+
+.table-section button {
+    font-size: x-small;
+    font-weight: 300;
+}
+
+.hero a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.hero h3 {
+    position: absolute;
+    top: 55%;
+    text-align: right;
+    color: var(--accent1-color);
+    background-color: var(--primary-color);
+}
+
+.trip-hero-btn, .home-hero-btn {
+    position: absolute;
+    top: 75%;
+    right: 10px;
+}
+
+.center-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.trip-table {
+    border: none;
+}
+
+.trip-aside {
+    position: relative;
+}
+
+.aside-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.aside-text {
+    position: absolute;
+    top: 10px;
+    color:#000;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.weekend-cruise {
+    position: absolute;
+    top: 80px;
+    background-color: #bbff0f;
+    width: 100%;
+}
+
+.weekend-cruise img {
+    width: 100%;
+}
+
+.home-img-container {
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 1.5rem 0;
+}
+
+.overlapping-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(136, 140, 148, 0.498);
+}
+
+.overlapping-container img {
+    padding: 1rem;
+}
+
+.overlap-magnifier {
+    position: relative;
+    margin: 2.5rem 0;
+}
+
+.overlap {
+    width: 250px;
+    height: 130px;
+    background-color: #3b97ecc1;
+    color: #eee;
+    position: absolute;
+    top: 33px;
+    right: 18%;
+    border-radius: 4px;
+}
+
+.overlap p {
+    font-size: x-small;
+}
+
+.overlap button {
+    height: 20px;
+    font-size: small;
+    text-align: center;
+    padding: 5px;
+    margin-top: 0;
+    align-self: center;
+}
+
+.home-body {
+    border: 1px solid #000;
+}
