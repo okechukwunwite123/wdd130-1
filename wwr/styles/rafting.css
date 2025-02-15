@@ -60,7 +60,7 @@ p{
     position: absolute;
     top: 20px;
     color: var(--primary-color);
-    background-color: rgb(255 255 0 / 0.7);
+    background-color: rgba(208, 182, 97, 0.824);
 }
 
 .hero article {
@@ -212,7 +212,7 @@ input, textarea {
     border-radius: 10px;
 }
 
-button {
+button, .btn {
     margin: 16px;
     background-color: navy;
     color: whitesmoke;
@@ -222,11 +222,11 @@ button {
     font-size: 1.2rem;
 }
 
-button:hover {
+button:hover, .btn:hover {
     background-color: rebeccapurple;
 }
 
-.submit-btn-container {
+.submit-btn-container, .center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,12 +359,12 @@ iframe {
 }
 
 .home-img-container {
-    display: flex;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
-    align-items: center;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* align-items: center;
     justify-content: space-evenly;
-    margin: 1.5rem 0;
+    margin: 1.5rem 0; */
 }
 
 .overlapping-container {
@@ -398,14 +398,26 @@ iframe {
 }
 
 .overlap button {
-    height: 20px;
+    height: 30px;
     font-size: small;
     text-align: center;
     padding: 5px;
     margin-top: 0;
-    align-self: center;
 }
 
 .home-body {
     border: 1px solid #000;
+}
+
+.signup-section label, .signup-section input {
+    display: block;
+    width: 85%;
+    padding: 1rem;
+    margin: 0 2rem;
+}
+
+.tr {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 5px;
 }
